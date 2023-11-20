@@ -1,0 +1,106 @@
+/* styles.css or a separate CSS file */
+.menu-entering {
+  opacity: 0;
+  transform: translateY(-20px); /* Slide the menu down from the top */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-entered {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* styles.css */
+
+.dotted-border {
+  border: 1px dotted red; /* You can adjust the border width and color */
+}
+
+/* styles.css or your CSS file */
+.zoom-image {
+  transform: scale(1.2); /* Increase the value to zoom in further */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+/* Styling for the dots (pagination) */
+.slick-dots li button:before {
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #fff; /* Dot color */
+}
+
+/* Styling for active dot (pagination) */
+.slick-dots li.slick-active button:before {
+  color: #ff0; /* Active dot color */
+}
+
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  padding: 40px;
+  background-color: transparent;
+  border-radius: 3%;
+}
+@media (max-width: 1400px) {
+  .project-card {
+    height: 600px;
+  }
+
+}
+@media (max-width: 1212px) {
+  .project-card {
+    height: 810px;
+  }
+}
+@media (max-width: 1100px) {
+  .project-card {
+    height: 830px;
+  }
+}
+@media (max-width: 800px) {
+  .project-card {
+    height: 590px;
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 5%;
+  }
+}
+
+.slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* some blob code*/
+.ucmercedblob {
+  background-image: url('/ucmerced.jpg');
+  width: 220px;
+  height: 170px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0px;
+  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
+  animation: animate 6s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+.ucmercedblob2 {
+  background-image: url('/ucmerced2.jpeg');
+  width: 220px;
+  height: 170px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0px;
+  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
+  animation: animate2 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}

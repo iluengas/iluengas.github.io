@@ -1,0 +1,38 @@
+.blob-wiggle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blob-wiggle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: src('./ucmerced.jpg') center/cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: wiggle 3s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% {
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    25% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    75% {
+        border-radius: 40% 30% 60% 70% / 30% 70% 40% 60%;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}

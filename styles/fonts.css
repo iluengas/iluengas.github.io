@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "custom";
+    src: url("/fonts/pixel_sans.ttf") format("ttf");
+    font-weight: 400; /* Adjust the font weight if needed */
+    font-style: normal; /* Adjust the font style if needed */
+    font-family: "custom", arial;
+}
