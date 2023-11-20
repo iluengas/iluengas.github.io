@@ -1,5 +1,5 @@
-module.exports = {
-    // Other configurations...
-    output: 'out', // or any other directory name you prefer
+const nextConfig = {
+  trailingSlash: true,
+  output: 'export',
   }
-  
+  module.exports = nextConfig
