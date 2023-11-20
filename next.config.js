@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+    // Other configurations...
+    output: 'out', // or any other directory name you prefer
+  }
+  
