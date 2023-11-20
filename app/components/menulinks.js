@@ -17,14 +17,14 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
   }
 
   return (
-    <div className=" fixed inset-0 flex bg-black bg-opacity-99" style={{ zIndex: 1 }}>
+    <div className="fixed inset-0 flex bg-black bg-opacity-99" style={{ zIndex: 1 }}>
       <div className="absolute top-0 right-0 m-2">
         <button onClick={toggleMenu}>
           <VscChromeClose size="2rem" className='hover:text-orange-400' />
         </button>
       </div>
-      <ul className=" mt-14 h-screen flex flex-col bg-black items-center bg-r py-12 w-full font-semibold text-2xl" style={{ zIndex: 2 }}>
-      <li className="text-white w-full pt-12 px-4">
+      <ul className=" mt-14 h-screen flex flex-col bg-black items-center bg-r py-12 w-full font-semibold text-2xl" style={{ zIndex: 2, overflow: 'auto' }}>
+        <li className="text-white w-full pt-12 px-4">
           <Link href="#about" className="hover:text-orange-400" onClick={toggleMenu}>
             <div className="flex flex-row items-center dark:bg-black w-full px-4 py-4 rounded-t-lg text-xl border-b border-b-slate-800">
               <div className='flex flex-row items-center space-x-4'>
