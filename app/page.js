@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <div className='bg-black w-full flex flex-col justify-center items-center text-center relative overflow-y:scroll'>
       {/*section 1: intro and self protrait*/}
-      <section className='bg-black  w-full lg:h-2/6 flex items-center justify-center px-4 md:px-10 lg:px-40 ' style={{ background: 'url("./cool-background.png") no-repeat center center', backgroundSize: 'cover' }}>
+      <section id="about" className='bg-black  w-full lg:h-2/6 flex items-center justify-center px-4 md:px-10 lg:px-40 ' style={{ background: 'url("./cool-background.png") no-repeat center center', backgroundSize: 'cover' }}>
         {/* changes from column to row format based on screen size*/}
         <div className='  w-full flex flex-col-reverse lg:flex-row items-center justify-center'>
           <div className=' w-full lg:w-3/4 h-full pl-3'>

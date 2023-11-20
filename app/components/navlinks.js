@@ -8,7 +8,7 @@ function NavLinks({ resumeUrl, linkedinUrl, githubUrl }) {
     <div className="flex justify-center"> {/* Center the content */}
       <ul className="hidden sm:flex items-center text-center">
         <li className="m-3">
-          <Link href="../" className='rounded-lg pb-2 hover:text-orange-400 font-bold text-lg pt-1'>
+          <Link href="#about" className='rounded-lg pb-2 hover:text-orange-400 font-bold text-lg pt-1'>
             About
           </Link>
         </li>

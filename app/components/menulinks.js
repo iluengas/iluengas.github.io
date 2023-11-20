@@ -21,7 +21,7 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
       </div>
       <ul className=" mt-14 h-screen flex flex-col bg-black items-center bg-r py-12 w-full font-semibold text-2xl" style={{ zIndex: 2 }}>
         <li className="text-white w-full pt-2 px-4">
-          <Link href="../" className="hover:text-orange-400" onClick={toggleMenu}>
+          <Link href="#about" className="hover:text-orange-400" onClick={toggleMenu}>
             <div className='flex flex-row items-center dark:bg-black w-full px-4 py-4 rounded-lg border-b border-b-slate-800 '>
               {/* Image Container */}
               <div className='h-full flex items-center justify-start text-2xl'>
