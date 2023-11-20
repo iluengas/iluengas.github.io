@@ -27,7 +27,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/Gallo.jpg"
+                                src="/isaacluengas/Gallo.jpg"
                                 alt="gallo"
                                 width={1678}
                                 height={1707}
@@ -57,7 +57,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/reactnative.png"
+                                            src="/isaacluengas/reactnative.png"
                                             alt="react native"
                                             width={1678}
                                             height={1707}
@@ -66,7 +66,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/python.png"
+                                            src="/isaacluengas/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -75,7 +75,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/sql.png"
+                                            src="/isaacluengas/sql.png"
                                             alt="sql"
                                             width={1678}
                                             height={1707}
@@ -84,7 +84,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/python.png"
+                                            src="/isaacluengas/python.png"
                                             alt="flask"
                                             width={1678}
                                             height={1707}
@@ -102,7 +102,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/hand.png"
+                                src="/isaacluengas/hand.png"
                                 alt="isaac hand"
                                 width={1678}
                                 height={1707}
@@ -139,7 +139,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/csharp.png"
+                                            src="/isaacluengas/csharp.png"
                                             alt="flask"
                                             width={1678}
                                             height={1707}
@@ -148,7 +148,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/python.png"
+                                            src="/isaacluengas/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -157,7 +157,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/unity.png"
+                                            src="/isaacluengas/unity.png"
                                             alt="unity"
                                             width={1678}
                                             height={1707}
@@ -175,7 +175,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/weatherapp.png"
+                                src="/isaacluengas/weatherapp.png"
                                 alt="weather app"
                                 width={1678}
                                 height={1707}
@@ -209,7 +209,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/python.png"
+                                            src="/isaacluengas/python.png"
                                             alt="tkinter"
                                             width={1678}
                                             height={1707}
@@ -218,7 +218,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/python.png"
+                                            src="/isaacluengas/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -227,7 +227,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/api.png"
+                                            src="/isaacluengas/api.png"
                                             alt="api"
                                             width={1678}
                                             height={1707}

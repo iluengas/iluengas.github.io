@@ -27,7 +27,7 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
               <div className='h-full flex items-center justify-start text-2xl'>
                 <div className="rounded-full h-14 w-14 overflow-hidden mr-3">
                   <Image
-                    src="/isaac-portrait-2.jpg"
+                    src="/isaacluengas/isaac-portrait-2.jpg"
                     alt="Isaac"
                     width={1678}
                     height={1707}

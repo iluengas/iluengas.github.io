@@ -6,7 +6,7 @@ const Skills = () => {
         <ul className="flex flex-wrap justify-center bg-transparent">
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/python.png" 
+                    src="/isaacluengas/python.png" 
                     alt="python icon"
                     width={1678}
                     height={1707}
@@ -18,7 +18,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/c++.png" 
+                    src="/isaacluengas/c++.png" 
                     alt="c++ icon" 
                     width={1678}
                     height={1707}                    
@@ -36,7 +36,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/javascript.png" 
+                    src="/isaacluengas/javascript.png" 
                     alt="JavaScript icon" 
                     width={1678}
                     height={1707}
@@ -48,7 +48,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/matlab.png" 
+                    src="/isaacluengas/matlab.png" 
                     alt="python icon"
                     width={1678}
                     height={1707}
@@ -60,7 +60,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/c.png" 
+                    src="/isaacluengas/c.png" 
                     alt="c icon" 
                     width={1678}
                     height={1707}
@@ -72,7 +72,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/sql.png" 
+                    src="/isaacluengas/sql.png" 
                     alt="SQL icon" 
                     width={1678}
                     height={1707}
@@ -84,7 +84,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/reactnative.png" 
+                    src="/isaacluengas/reactnative.png" 
                     alt="React icon"
                     width={1678}
                     height={1707}
@@ -96,7 +96,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/css.png" 
+                    src="/isaacluengas/css.png" 
                     alt="css icon" 
                     width={1678}
                     height={1707}
@@ -108,7 +108,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/nextjs.png" 
+                    src="/isaacluengas/nextjs.png" 
                     alt="nextjs icon" 
                     width={1678}
                     height={1707}
@@ -120,7 +120,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-gray-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/reactnative.png" 
+                    src="/isaacluengas/reactnative.png" 
                     alt="react native icon" 
                     width={1678}
                     height={1707}
@@ -132,7 +132,7 @@ const Skills = () => {
             </li>
             <li className='rounded-lg border border-stone-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1'>
                 <Image 
-                    src="/html.png" 
+                    src="/isaacluengas/html.png" 
                     alt="html icon" 
                     width={1678}
                     height={1707}

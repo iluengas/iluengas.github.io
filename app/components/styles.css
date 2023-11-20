@@ -83,7 +83,7 @@
 
 /* some blob code*/
 .ucmercedblob {
-  background-image: url('/ucmerced.jpg');
+  background-image: url('/isaacluengas/ucmerced.jpg');
   width: 220px;
   height: 170px;
   background-size: cover;
@@ -94,7 +94,7 @@
   transition: all 1s ease-in-out;
 }
 .ucmercedblob2 {
-  background-image: url('/ucmerced2.jpeg');
+  background-image: url('/isaacluengas/ucmerced2.jpeg');
   width: 220px;
   height: 170px;
   background-size: cover;
