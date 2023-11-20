@@ -118,7 +118,7 @@ const Carousel = () => {
                                     <h3 className="text-md md:text-xl text-orange-400 font-medium flex justify-center md:justify-start">
                                         Computer Vision Super Mario
                                     </h3>
-                                    <Link href={mario_game_link} className='ml-2 text-white hover:text-gray-300 text-xl flex items-center justify-center'>
+                                    <Link href={mario_game_link} target="_blank" rel="noopener noreferrer" className='ml-2 text-white hover:text-gray-300 text-xl flex items-center justify-center'>
                                         <HiExternalLink style={{ fontSize: '27px' }} />
                                     </Link>
                                 </div>
@@ -191,7 +191,7 @@ const Carousel = () => {
                                     <h3 className="text-md md:text-xl text-orange-400 font-medium flex justify-center md:justify-start">
                                         Python Weather App
                                     </h3>
-                                    <Link href={tkinter_weather_app_link} className='ml-2 text-white hover:text-gray-300 text-xl flex items-center justify-center'>
+                                    <Link href={tkinter_weather_app_link} target="_blank" rel="noopener noreferrer" className='ml-2 text-white hover:text-gray-300 text-xl flex items-center justify-center'>
                                         <HiExternalLink style={{ fontSize: '27px' }} />
                                     </Link>
                                 </div>

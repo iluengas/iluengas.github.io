@@ -1,9 +1,13 @@
 import React from 'react'
+
+//menu icons
 import { VscChromeClose } from 'react-icons/vsc';
+import { PiCertificateFill } from "react-icons/pi";
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { AiFillCode } from 'react-icons/ai'
-import { BiSolidContact } from 'react-icons/bi'
 import { FcDocument } from 'react-icons/fc'
+import { FaHome } from "react-icons/fa";
+
 import Link from 'next/link'
 import Image from "next/image"
 
@@ -20,25 +24,12 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
         </button>
       </div>
       <ul className=" mt-14 h-screen flex flex-col bg-black items-center bg-r py-12 w-full font-semibold text-2xl" style={{ zIndex: 2 }}>
-        <li className="text-white w-full pt-2 px-4">
+      <li className="text-white w-full pt-12 px-4">
           <Link href="#about" className="hover:text-orange-400" onClick={toggleMenu}>
-            <div className='flex flex-row items-center dark:bg-black w-full px-4 py-4 rounded-lg border-b border-b-slate-800 '>
-              {/* Image Container */}
-              <div className='h-full flex items-center justify-start text-2xl'>
-                <div className="rounded-full h-14 w-14 overflow-hidden mr-3">
-                  <Image
-                    src="/isaacluengas/isaac-portrait-2.jpg"
-                    alt="Isaac"
-                    width={1678}
-                    height={1707}
-                    className="object-cover h-full w-full"
-                    style={{ objectPosition: '25% 75%' }}
-                  />
-                </div>
-              </div>
-              <div>
-                <p>Isaac Luengas</p>
-                <p className='text-base font-medium text-white'>About Page</p>
+            <div className="flex flex-row items-center dark:bg-black w-full px-4 py-4 rounded-t-lg text-xl border-b border-b-slate-800">
+              <div className='flex flex-row items-center space-x-4'>
+                <FaHome size="2rem" className='text-orange-500' />
+                <p>About Page</p>
               </div>
             </div>
           </Link>
@@ -57,7 +48,7 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
           <Link href="#education" className="hover:text-orange-400" onClick={toggleMenu}>
             <div className="flex flex-row items-center dark:bg-black w-full px-4 py-4 rounded-t-lg text-xl border-b border-b-slate-800">
               <div className='flex flex-row items-center space-x-4'>
-                <BiSolidContact size="2rem" className='text-red-500' />
+                <PiCertificateFill size="2rem" className='text-yellow-400 ' />
                 <p>Certificates</p>
               </div>
             </div>
