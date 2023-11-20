@@ -5,6 +5,7 @@ import { VscListSelection } from 'react-icons/vsc';
 import MenuLinks from './menulinks';
 import NavLinks from './navlinks';
 import './animations/awesomeborder.css';
+import Image from "next/image"
 
 export default function NavBar() {
     const linkedinUrl = 'https://www.linkedin.com/in/isaac-luengas/';
@@ -46,7 +47,13 @@ export default function NavBar() {
             {isSmallScreen ? (
                 <>
                     <div className=' w-1/2 h-full flex items-center justify-start text-xl'>
-                        <img src="./isaac-logo.png" alt="isaacs logo" className='h-12 w-12 rounded-lg'/>
+                        <Image
+                            src="/isaac-logo.png"
+                            alt="isaacs logo"
+                            width={1678}
+                            height={1707}
+                            className='h-12 w-12 rounded-lg'
+                        />
                     </div>
                     <div className='w-1/2 h-full flex items-center justify-end'>
                         <button onClick={toggleMenu}>
@@ -58,7 +65,13 @@ export default function NavBar() {
             ) : (
                 <>
                     <div className=' w-1/2 h-full flex items-center justify-start text-3xl font-bold text-gray-700'>
-                        <img src="./isaac-logo.png" alt="isaacs logo" className='h-16 w-16 rounded-lg'/>
+                        <Image
+                            src="/isaac-logo.png"
+                            alt="isaacs logo"
+                            width={1678}
+                            height={1707}
+                            className='h-16 w-16 rounded-lg'
+                        />
                     </div>
                     <div className='w-1/2 h-full flex items-center justify-end'>
                         <NavLinks

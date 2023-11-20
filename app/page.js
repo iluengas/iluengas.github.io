@@ -10,6 +10,8 @@ import projects from './components/projects'
 import Carousel from './components/carousel'
 import { HiExternalLink } from "react-icons/hi"
 import Skills from "./components/skills"
+import Image from 'next/image'
+
 
 export default function Page() {
   const credentials_link = "https://registrar.ucmerced.edu/credential-validation";
@@ -29,7 +31,7 @@ export default function Page() {
             <p className=" lg:w-full text-left text-base lg:text-start mt-10 font-medium">
               My skill set encompasses app development, computer vision, game development, UI design, and robotics.
               I have a proven track record as a highly effective software engineer and a successful leader of
-              cross-functional development teams. I've consistently delivered results, even in fast-paced environments
+              cross-functional development teams. I&apos;ve consistently delivered results, even in fast-paced environments
               with stringent deadlines.
             </p>
             <p className=" lg:w-full text-left text-base lg:text-start pt-5 font-medium">
@@ -93,7 +95,7 @@ export default function Page() {
               Certificates
             </h5>
             <p className='flex justify-center lg:justify-start items-center lg:text-xl'>
-              <span className='text-yellow-200 mr-1'>Chancellor's List</span>2023
+              <span className='text-yellow-200 mr-1'>Chancellor&apos;s List</span>2023
             </p>
             <p className='flex justify-center lg:justify-start items-center lg:text-xl'>
               <span className='text-yellow-200 mr-1'>Deans List</span>2022 - 2023
