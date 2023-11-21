@@ -25,10 +25,10 @@ export default function Page() {
             <h2 className='text-center lg:text-start text-4xl text-orange-400'>
               Hello, I am Isaac.
             </h2>
-            <h3 className='text-center lg:text-start text-4xl xl:text-7xl font-semibold w-full lg:w-full mt-4 '>
+            <h3 className='text-center text-white lg:text-start text-4xl xl:text-7xl font-semibold w-full lg:w-full mt-4 '>
               Software Engineer
             </h3>
-            <p className=" lg:w-full text-left text-base lg:text-start mt-10 font-medium">
+            <p className=" lg:w-full text-left text-base lg:text-start text-white mt-10 font-medium">
               My skill set encompasses app development, computer vision, game development, UI design, and robotics.
               I have a proven track record as a highly effective software engineer and a successful leader of
               cross-functional development teams. I&apos;ve consistently delivered results, even in fast-paced environments
