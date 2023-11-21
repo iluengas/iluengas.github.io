@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   //wrap the navbar with a useClient to make it a client entry
   return (
     <html lang="en">
-      <body className='flex flex-col'>
+      <body className='flex flex-col bg-black'>
         {/* Include shared UI here e.g. a navbar */}
         <NavBar />
         <div className='flex flex-row'>

@@ -17,7 +17,7 @@ function MenuLinks({ isOpen, toggleMenu, resumeUrl, linkedinUrl, githubUrl }) {
   }
 
   return (
-    <div className="fixed inset-0 flex bg-black bg-opacity-99" style={{ zIndex: 1 }}>
+    <div className="fixed inset-0 text-white flex bg-black bg-opacity-99" style={{ zIndex: 1 }}>
       <div className="absolute top-0 right-0 m-2">
         <button onClick={toggleMenu}>
           <VscChromeClose size="2rem" className='hover:text-orange-400' />

@@ -5,7 +5,7 @@ import { BiSolidDownload } from 'react-icons/bi';
 
 function NavLinks({ resumeUrl, linkedinUrl, githubUrl }) {
   return (
-    <div className="flex justify-center"> {/* Center the content */}
+    <div className="flex justify-center text-white"> {/* Center the content */}
       <ul className="hidden sm:flex items-center text-center">
         <li className="m-3">
           <Link href="#about" className='rounded-lg pb-2 hover:text-orange-400 font-bold text-lg pt-1'>

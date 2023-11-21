@@ -16,7 +16,7 @@ import Image from 'next/image'
 export default function Page() {
   const credentials_link = "https://registrar.ucmerced.edu/credential-validation";
   return (
-    <div className='bg-black w-full flex flex-col justify-center items-center text-center relative overflow-y:scroll'>
+    <div className='bg-black w-full flex flex-col text-white ustify-center items-center text-center relative overflow-y:scroll'>
       {/*section 1: intro and self protrait*/}
       <section id="about" className='bg-black  w-full lg:h-2/6 flex items-center justify-center px-4 md:px-10 lg:px-40 ' style={{ background: 'url("./cool-background.png") no-repeat center center', backgroundSize: 'cover' }}>
         {/* changes from column to row format based on screen size*/}
@@ -25,10 +25,10 @@ export default function Page() {
             <h2 className='text-center lg:text-start text-4xl text-orange-400'>
               Hello, I am Isaac.
             </h2>
-            <h3 className='text-center text-white lg:text-start text-4xl xl:text-7xl font-semibold w-full lg:w-full mt-4 '>
+            <h3 className='text-center lg:text-start text-4xl xl:text-7xl font-semibold w-full lg:w-full mt-4 '>
               Software Engineer
             </h3>
-            <p className=" lg:w-full text-left text-base lg:text-start text-white mt-10 font-medium">
+            <p className=" lg:w-full text-left text-base lg:text-start mt-10 font-medium">
               My skill set encompasses app development, computer vision, game development, UI design, and robotics.
               I have a proven track record as a highly effective software engineer and a successful leader of
               cross-functional development teams. I&apos;ve consistently delivered results, even in fast-paced environments
@@ -73,12 +73,12 @@ export default function Page() {
         </div>
       </section>
       <section id="education" className=' flex flex-col justify-center items-center w-full mt-44 bg-black py-10 px-4 md:px-10 lg:px-40'>
-        <h2 className=' flex text-center justify-center text-4xl lg:text-3xl font-bold mb-2'>
+        <h2 className=' text-white flex text-center justify-center text-4xl lg:text-3xl font-bold mb-2'>
           Education
         </h2>
         <div className=' flex flex-row-reverse md:w-4/5 rounded-xl bg-transparent py-10 lg:px-10 shadow-md md:shadow-none shadow-gray-500'>
           <div className=" w-full md:pl-12 flex flex-col items-center md:items-start">
-            <h3 className=' flex text-center justify-center lg:justify-start text-2xl lg:text-2xl font-semibold text-white'>
+            <h3 className=' flex text-center justify-center lg:justify-start text-2xl lg:text-2xl font-semibold '>
               University of California, Merced
             </h3>
             <h4 className=' flex text-center justify-center lg:justify-start text-xl lg:text-xl font-semibold text-orange-400'>
@@ -87,7 +87,7 @@ export default function Page() {
             <h4 className=' w-full mb-2 flex justify-center md:justify-start text-gray-300'>
               Credentials ID 23H8XCNNIHSBIS
             </h4>
-            <a href={credentials_link} className='text-white border w-44 flex p-1 bg-black rounded-full justify-center items-center hover:bg-gray-800'>
+            <a href={credentials_link} className=' border w-44 flex p-1 bg-black rounded-full justify-center items-center hover:bg-gray-800'>
               Show Credential
               <HiExternalLink className="text-white" style={{ fontSize: '27px' }} />
             </a>
