@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Isaac Luengas - Portfolio Website
 
-## Getting Started
+📞 (805) 570-2788 | 📧 isaac.j.luengas@gmail.com | [LinkedIn](https://www.linkedin.com/in/isaac-luengas/) | [isaacluengas.io](https://isaacluengas.io)
 
-First, run the development server:
+## Education
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**University of California, Merced** - Spring 2023
+- Bachelors of Science in Computer Science & Engineering
+- Dean's List: 2022-2023, Chancellor's List: 2023
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Santa Barbara City College** - Fall 2021
+- Associates in Science in Mathematics
+- Associates in Science in Liberal Arts - Sci
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Work Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### E & J Winery - January 2023 to May 2023
+**Software Engineer Intern**
+- Collaborated with engineers to devise a software solution for assembly line malfunctions.
+- Designed an iOS app for assembly line workers, enabling them to scan gear damage with 1mm precision.
+- Implemented an AWS-based SQLite3 database to store wear data, enabling easy access and analysis.
+- Created an App that streamlines part replacement, leading to cost savings of approximately $6,000/minute.
 
-## Learn More
+### Santa Barbara Unified School District - September 2017 to August 2021
+**Calculus & Science Tutor**
+- Served as a communication liaison between Avid teachers and students, ensuring student success.
+- Provided tutoring in AP Calculus 1-3, AP Physics, Trigonometry, and Chemistry.
+- Significantly improved AP physics students' GPAs within 3 months of tutoring.
 
-To learn more about Next.js, take a look at the following resources:
+### Hennes and Mauritz - June 2017 to August 2021
+**Sales Lead**
+- Provided training to employees to achieve and sustain a customer rewards program utilization rate of 75%.
+- Led a project focused on stockroom organization and merchandising.
+- Conducted register closures, performing cash counts for each register and calculating the net total profit.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Santa Barbara Public Works - June 2016 to August 2017
+**Engineering Intern**
+- Digitally archived engineering plans for Santa Barbara's plumbing and city street infrastructure.
+- Utilized Excel for seamless upload and streamlined access, ensuring record-keeping and accessibility for future reference.
+- Collaborated closely with civil engineers to comprehensively document various types of engineering plans.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Skills
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Programming Languages and Technologies
+- **Languages:** Python, C++, JavaScript, C, Java, ROS 2, Matlab
+- **Technologies:** Git, SQL, React, Tailwind / CSS, HTML, Django, Next.js, React Native
