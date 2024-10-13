@@ -18,7 +18,7 @@ export default function EducationDetails({ link }) {
             <span className='text-yellow-200 mr-1'>Chancellor&apos;s List</span> 2023
           </p>
           <p className='flex justify-center lg:justify-start items-center lg:text-xl'>
-            <span className='text-yellow-200 mr-1'>Dean's List</span> 2022 - 2023
+            <span className='text-yellow-200 mr-1'>Dean&apos;s List</span> 2022 - 2023
           </p>
           <h5 className='flex justify-center md:justify-start pt-4 text-xl font-light w-full'>Notable courses</h5>
           <ul className='flex flex-wrap py-2 px-2 justify-center lg:justify-start'>
