@@ -1,7 +1,9 @@
+"use client"
+
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./styles.css"
+import "@/app/components/styles.css"
 import { HiExternalLink } from "react-icons/hi";
 import Link from 'next/link';
 import Image from "next/image"
@@ -27,7 +29,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/isaacluengas/Gallo.jpg"
+                                src="/images/Gallo.jpg"
                                 alt="gallo"
                                 width={1678}
                                 height={1707}
@@ -57,7 +59,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/reactnative.png"
+                                            src="/images/reactnative.png"
                                             alt="react native"
                                             width={1678}
                                             height={1707}
@@ -66,7 +68,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/python.png"
+                                            src="/images/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -75,7 +77,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/sql.png"
+                                            src="/images/sql.png"
                                             alt="sql"
                                             width={1678}
                                             height={1707}
@@ -84,7 +86,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/python.png"
+                                            src="/images/python.png"
                                             alt="flask"
                                             width={1678}
                                             height={1707}
@@ -102,7 +104,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/isaacluengas/hand.png"
+                                src="/images/hand.png"
                                 alt="isaac hand"
                                 width={1678}
                                 height={1707}
@@ -139,7 +141,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/csharp.png"
+                                            src="/images/csharp.png"
                                             alt="flask"
                                             width={1678}
                                             height={1707}
@@ -148,7 +150,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/python.png"
+                                            src="/images/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -157,7 +159,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/unity.png"
+                                            src="/images/unity.png"
                                             alt="unity"
                                             width={1678}
                                             height={1707}
@@ -175,7 +177,7 @@ const Carousel = () => {
                         <div className=" w-full md:w-96 h-32 md:h-full flex flex-col items-center md:justify-start md:mr-4 p-1">
                             <h2 className=' h-full md:h-max md:mb-10 text-sm md:text-lg'>Jan - May 2023 </h2>
                             <Image
-                                src="/isaacluengas/weatherapp.png"
+                                src="/images/weatherapp.png"
                                 alt="weather app"
                                 width={1678}
                                 height={1707}
@@ -209,7 +211,7 @@ const Carousel = () => {
                                 <ul className='p-1 flex flex-wrap text-xs md:text-xl w-full'>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/python.png"
+                                            src="/images/python.png"
                                             alt="tkinter"
                                             width={1678}
                                             height={1707}
@@ -218,7 +220,7 @@ const Carousel = () => {
                                     </li>
                                     <li className='flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/python.png"
+                                            src="/images/python.png"
                                             alt="python"
                                             width={1678}
                                             height={1707}
@@ -227,7 +229,7 @@ const Carousel = () => {
                                     </li>
                                     <li className=' flex justify-center items-center m-1 rounded-2xl bg-gray-900 w-max p-2 shadow-sm shadow-gray-100'>
                                         <Image
-                                            src="/isaacluengas/api.png"
+                                            src="/images/api.png"
                                             alt="api"
                                             width={1678}
                                             height={1707}

@@ -1,4 +1,31 @@
-/* styles.css or a separate CSS file */
+/* Animations */
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
+@keyframes animate2 {
+  0%,
+  100% {
+    border-radius: 50% 30% 20% 70% / 40% 20% 60% 30%;
+  }
+  25% {
+    border-radius: 40% 25% 30% 60% / 35% 22% 55% 25%;
+  }
+  50% {
+    border-radius: 20% 50% 60% 30% / 30% 50% 20% 50%;
+  }
+  75% {
+    border-radius: 45% 28% 35% 65% / 38% 24% 58% 28%;
+  }
+}
+
+/* Transitions */
 .menu-entering {
   opacity: 0;
   transform: translateY(-20px); /* Slide the menu down from the top */
@@ -10,30 +37,28 @@
   transform: translateY(0);
 }
 
-/* styles.css */
-
+/* Dotted Border */
 .dotted-border {
-  border: 1px dotted red; /* You can adjust the border width and color */
+  border: 1px dotted red; /* Adjust the border width and color */
 }
 
-/* styles.css or your CSS file */
+/* Zoom Image */
 .zoom-image {
   transform: scale(1.2); /* Increase the value to zoom in further */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
-
-/* Styling for the dots (pagination) */
+/* Slick Dots Styling */
 .slick-dots li button:before {
   font-size: 20px; /* Adjust the font size as needed */
   color: #fff; /* Dot color */
 }
 
-/* Styling for active dot (pagination) */
 .slick-dots li.slick-active button:before {
   color: #ff0; /* Active dot color */
 }
 
+/* Project Card */
 .project-card {
   width: 100%;
   display: flex;
@@ -44,36 +69,37 @@
   background-color: transparent;
   border-radius: 3%;
 }
+
 @media (max-width: 1400px) {
   .project-card {
     height: 600px;
   }
-
 }
+
 @media (max-width: 1212px) {
   .project-card {
     height: 810px;
   }
 }
+
 @media (max-width: 1100px) {
   .project-card {
     height: 830px;
   }
 }
+
 @media (max-width: 800px) {
   .project-card {
     height: 590px;
     padding: 4px;
-    width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
     border-radius: 5%;
   }
 }
 
+/* Slick Slide */
 .slick-slide {
   display: flex;
   align-items: center;
@@ -81,26 +107,57 @@
   height: 100%;
 }
 
-/* some blob code*/
-.ucmercedblob {
-  background-image: url('/isaacluengas/ucmerced.jpg');
-  width: 220px;
-  height: 170px;
+/* Blob Styles */
+.blob,
+.ucmercedblob,
+.ucmercedblob2,
+.javablob {
   background-size: cover;
   background-position: center center;
-  margin: 0px;
-  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
-  animation: animate 6s ease-in-out infinite;
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 0, 0.6);
   transition: all 1s ease-in-out;
 }
-.ucmercedblob2 {
-  background-image: url('/isaacluengas/ucmerced2.jpeg');
+
+.ucmercedblob {
+  background-image: url("/images/ucmerced.jpg");
   width: 220px;
   height: 170px;
-  background-size: cover;
-  background-position: center center;
-  margin: 0px;
-  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
+  animation: animate 6s ease-in-out infinite;
+}
+
+.ucmercedblob2 {
+  background-image: url("/images/ucmerced2.jpeg");
+  width: 220px;
+  height: 170px;
   animation: animate2 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
+}
+
+.blob {
+  background-image: url("/images/isaac.png");
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  animation: animate 5s ease-in-out infinite;
+}
+
+.blob:hover {
+  background-color: orange;
+}
+
+.javablob {
+  background-image: url("/images/java.png");
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  animation: animate2 5s ease-in-out infinite;
+}
+
+/* Define styles for screens larger than mobile (e.g., width >= 768px) */
+@media (min-width: 768px) {
+  .blob {
+    width: 500px;
+    height: 500px;
+  }
 }

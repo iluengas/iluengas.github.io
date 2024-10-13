@@ -48,7 +48,7 @@ export default function NavBar() {
                 <>
                     <div className=' w-1/2 h-full flex items-center justify-start text-xl'>
                         <Image
-                            src="/isaacluengas/isaac-logo.png"
+                            src="/images/isaac-logo.png"
                             alt="isaacs logo"
                             width={1678}
                             height={1707}
@@ -66,7 +66,7 @@ export default function NavBar() {
                 <>
                     <div className=' w-1/2 h-full flex items-center justify-start text-3xl font-bold text-gray-700'>
                         <Image
-                            src="/isaacluengas/isaac-logo.png"
+                            src="/images/isaac-logo.png"
                             alt="isaacs logo"
                             width={1678}
                             height={1707}

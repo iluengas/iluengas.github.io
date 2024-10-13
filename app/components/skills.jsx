@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-const Skills = () => {
+export default function ProgrammingSkills() {
   return (
     <ul className="flex flex-wrap justify-center bg-transparent">
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/python.png"
+          src="/images/python.png"
           alt="python icon"
           width={1678}
           height={1707}
@@ -16,7 +16,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/c++.png"
+          src="/images/c++.png"
           alt="c++ icon"
           width={1678}
           height={1707}
@@ -30,7 +30,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/javascript.png"
+          src="/images/javascript.png"
           alt="JavaScript icon"
           width={1678}
           height={1707}
@@ -40,7 +40,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/matlab.png"
+          src="/images/matlab.png"
           alt="python icon"
           width={1678}
           height={1707}
@@ -50,7 +50,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/c.png"
+          src="/images/c.png"
           alt="c icon"
           width={1678}
           height={1707}
@@ -60,7 +60,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/sql.png"
+          src="/images/sql.png"
           alt="SQL icon"
           width={1678}
           height={1707}
@@ -70,7 +70,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/reactnative.png"
+          src="/images/reactnative.png"
           alt="React icon"
           width={1678}
           height={1707}
@@ -80,7 +80,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/css.png"
+          src="/images/css.png"
           alt="css icon"
           width={1678}
           height={1707}
@@ -90,7 +90,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/nextjs.png"
+          src="/images/nextjs.png"
           alt="nextjs icon"
           width={1678}
           height={1707}
@@ -100,7 +100,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-gray-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/reactnative.png"
+          src="/images/reactnative.png"
           alt="react native icon"
           width={1678}
           height={1707}
@@ -112,7 +112,7 @@ const Skills = () => {
       </li>
       <li className="rounded-lg border border-stone-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/isaacluengas/html.png"
+          src="/images/html.png"
           alt="html icon"
           width={1678}
           height={1707}
@@ -123,5 +123,3 @@ const Skills = () => {
     </ul>
   );
 };
-
-export default Skills;

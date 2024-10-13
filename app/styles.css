@@ -10,69 +10,6 @@
   transform: translateY(0);
 }
 
-.blob {
-  background-image: url('/isaacluengas/isaac.png');
-  background-color: white;
-  width: 350px;
-  height: 350px;
-  background-size: cover;
-  background-position: center center;
-  margin: 20px;
-  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
-  animation: animate 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
-}
-
-.javablob {
-  background-image: url('/isaacluengas/java.png');
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-position: center center;
-  margin: 0px;
-  box-shadow: 0 5px 5px 5px rgba(13, 110,0 253, 0.6);
-  animation: animate2 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
-}
-
-.blob:hover {
-  background-color: orange;
-}
-
-/* Define styles for screens larger than mobile (e.g., width >= 768px) */
-@media (min-width: 768px) {
-  .blob {
-    width: 500px;
-    height: 500px;
-  }
-}
-
-@keyframes animate {
-  0%, 100% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-  50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-  }
-}
-
-@keyframes animate2 {
-  0%, 100% {
-    border-radius: 50% 30% 20% 70% / 40% 20% 60% 30%;
-  }
-  25% {
-    border-radius: 40% 25% 30% 60% / 35% 22% 55% 25%;
-  }
-  50% {
-    border-radius: 20% 50% 60% 30% / 30% 50% 20% 50%;
-  }
-  75% {
-    border-radius: 45% 28% 35% 65% / 38% 24% 58% 28%;
-  }
-}
-
-
 .project-dimensions {
   width: 450px;
   height: 480px;
