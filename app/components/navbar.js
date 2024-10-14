@@ -12,7 +12,7 @@ export default function NavBar() {
   const linkedinUrl = "https://www.linkedin.com/in/isaac-luengas/";
   const githubUrl = "https://github.com/iluengas";
   const resumeUrl =
-    "https://docs.google.com/document/d/1sggjC83RjxtoMi2hfYuhHnDNVfcxNjfagsKnM_92fRA/edit";
+    "https://docs.google.com/document/d/1ZzI990Y9ICzUFuhiGKUSC93wUlTucoEworQp7me8txU/edit?tab=t.0";
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);

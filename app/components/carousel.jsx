@@ -32,7 +32,7 @@ const Carousel = () => {
                 Jan - May 2023{" "}
               </h2>
               <Image
-                src={getImageUrl("gallo.jpg")}
+                src={getImageUrl("Gallo.jpg")}
                 alt="gallo"
                 width={1678}
                 height={1707}
