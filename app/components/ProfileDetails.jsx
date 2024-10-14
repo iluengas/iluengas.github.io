@@ -6,7 +6,9 @@ export default function ProfileDetails() {
       id="about"
       className="bg-black  w-full lg:h-2/6 flex items-center justify-center px-4 md:px-10 lg:px-40 "
       style={{
-        background: 'url("./cool-background.png") no-repeat center center',
+        background: `url(${getImageUrl(
+          "cool-background.png"
+        )}) no-repeat center center`,
         backgroundSize: "cover",
       }}
     >
@@ -42,7 +44,10 @@ export default function ProfileDetails() {
             , CA, US
           </p>
         </div>
-        <div className="blob" style={{backgroundImage: `url(${getImageUrl("isaac.png")})`}}/>
+        <div
+          className="blob"
+          style={{ backgroundImage: `url(${getImageUrl("isaac.png")})` }}
+        />
       </div>
     </section>
   );
