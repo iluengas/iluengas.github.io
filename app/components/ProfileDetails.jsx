@@ -1,3 +1,5 @@
+import { getImageUrl } from "../utils/imageHelper";
+
 export default function ProfileDetails() {
   return (
     <section
@@ -40,7 +42,7 @@ export default function ProfileDetails() {
             , CA, US
           </p>
         </div>
-        <div className="blob" />
+        <div className="blob" style={{backgroundImage: `url(${getImageUrl("isaac.png")})`}}/>
       </div>
     </section>
   );
