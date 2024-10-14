@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { BiSolidDownload } from 'react-icons/bi';
 
 function NavLinks({ resumeUrl, linkedinUrl, githubUrl }) {
   return (
@@ -16,11 +15,6 @@ function NavLinks({ resumeUrl, linkedinUrl, githubUrl }) {
           <a href="#projects" className='rounded-lg pb-2 hover:text-orange-400 font-bold text-lg'>
             Projects
           </a>
-        </li>
-        <li className="m-3">
-          <Link href="#education" className='rounded-lg pb-2 hover:text-orange-400 font-bold text-lg'>
-            Certificates
-          </Link>
         </li>
         <li className='m-3'>
           <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
