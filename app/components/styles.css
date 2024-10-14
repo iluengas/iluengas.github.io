@@ -119,14 +119,14 @@
 }
 
 .ucmercedblob {
-  background-image: url("/images/ucmerced.jpg");
+  /* background-image: url("/images/ucmerced.jpg"); */
   width: 220px;
   height: 170px;
   animation: animate 6s ease-in-out infinite;
 }
 
 .ucmercedblob2 {
-  background-image: url("/images/ucmerced2.jpeg");
+  /* background-image: url("/images/ucmerced2.jpeg"); */
   width: 220px;
   height: 170px;
   animation: animate2 5s ease-in-out infinite;

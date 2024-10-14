@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import { getImageUrl } from "@/app/utils/imageHelper";
 
 export default function ProgrammingSkills() {
   return (
     <ul className="flex flex-wrap justify-center bg-transparent">
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/python.png"
-          alt="python icon"
+          src={getImageUrl("python.png")}
+          alt="python"
           width={1678}
           height={1707}
           className="h-12 w-12"
@@ -16,7 +17,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/c++.png"
+          src={getImageUrl("c++.png")}
           alt="c++ icon"
           width={1678}
           height={1707}
@@ -25,12 +26,15 @@ export default function ProgrammingSkills() {
         <p className="pt-5 text-white font-semibold">C++</p>
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
-        <div className="javablob" />
+        <div
+          className="javablob"
+          style={{ backgroundImage: `url(${getImageUrl("java.png")})` }} // Use template literals
+        />
         <p className="pt-5 text-white font-semibold">Java</p>
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/javascript.png"
+          src={getImageUrl("javascript.png")}
           alt="JavaScript icon"
           width={1678}
           height={1707}
@@ -40,7 +44,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/matlab.png"
+          src={getImageUrl("matlab.png")}
           alt="python icon"
           width={1678}
           height={1707}
@@ -50,7 +54,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/c.png"
+          src={getImageUrl("c.png")}
           alt="c icon"
           width={1678}
           height={1707}
@@ -60,7 +64,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/sql.png"
+          src={getImageUrl("sql.png")}
           alt="SQL icon"
           width={1678}
           height={1707}
@@ -70,7 +74,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-300 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/reactnative.png"
+          src={getImageUrl("reactnative.png")}
           alt="React icon"
           width={1678}
           height={1707}
@@ -80,7 +84,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/css.png"
+          src={getImageUrl("css.png")}
           alt="css icon"
           width={1678}
           height={1707}
@@ -90,7 +94,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-slate-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/nextjs.png"
+          src={getImageUrl("nextjs.png")}
           alt="nextjs icon"
           width={1678}
           height={1707}
@@ -100,7 +104,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-gray-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/reactnative.png"
+          src={getImageUrl("reactnative.png")}
           alt="react native icon"
           width={1678}
           height={1707}
@@ -112,7 +116,7 @@ export default function ProgrammingSkills() {
       </li>
       <li className="rounded-lg border border-stone-200 w-24 h-28 lg:h-36 pt-5 bg-gray-900 flex flex-col items-center text-center m-1">
         <Image
-          src="/images/html.png"
+          src={getImageUrl("html.png")}
           alt="html icon"
           width={1678}
           height={1707}
@@ -122,4 +126,4 @@ export default function ProgrammingSkills() {
       </li>
     </ul>
   );
-};
+}
