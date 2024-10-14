@@ -133,7 +133,7 @@
 }
 
 .blob {
-  background-image: url("/images/isaac.png");
+  /* background-image: url("/images/isaac.png"); */
   background-color: white;
   width: 350px;
   height: 350px;
